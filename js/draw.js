@@ -17,13 +17,13 @@ Array.prototype.remove = function(from, to) {
 };
 
 function makeElementProperties() {
-	var Line = makeStruct('shapeType originx originy thickness endx endy strokeColor');
-	var Rect = makeStruct('shapeType originx originy thickness width height strokeColor fillColor');
-	var Ellipse = makeStruct('shapeType originx originy thickness width height strokeColor fillColor');
-	var Circle = makeStruct('shapeType originx originy thickness radius strokeColor fillColor');
-	var Arc = makeStruct('shapeType originx originy thickness radius strokeColor fillColor');
-	var Curve = makeStruct('shapeType originx originy thickness endx endy controlPoint1x controlPoint1y controlPoint2x controlPoint2y strokeColor fillColor');
-	var Textfield = makeStruct('shapeType originx originy width height fontHeight strokeColor fillColor bgcolor interactive text');
+	var Line = makeStruct('comment shapeType originx originy thickness endx endy strokeColor');
+	var Rect = makeStruct('comment shapeType originx originy thickness width height strokeColor fillColor');
+	var Ellipse = makeStruct('comment shapeType originx originy thickness width height strokeColor fillColor');
+	var Circle = makeStruct('comment shapeType originx originy thickness radius strokeColor fillColor');
+	var Arc = makeStruct('comment shapeType originx originy thickness radius strokeColor fillColor');
+	var Curve = makeStruct('comment shapeType originx originy thickness endx endy controlPoint1x controlPoint1y controlPoint2x controlPoint2y strokeColor fillColor');
+	var Textfield = makeStruct('comment shapeType originx originy width height fontHeight fillColor bgcolor interactive text');
 
 	elementPropertyArray['line'] = Line;
 	elementPropertyArray['rectangle'] = Rect;
@@ -715,7 +715,7 @@ function updatePreviewCanvas(sourceElementsArray, chainOriginX, chainOriginY, cu
 
 				if (!strokeColor)
 					strokeColor = '#000000';
-				ctx.fillStyle = strokeColor;
+				ctx.fillStyle = fillColor;
 				
 				ctx.textAlign = someElement['alignment']; 
 				if (!someElement['alignment']) {

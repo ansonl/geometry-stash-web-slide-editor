@@ -5,6 +5,9 @@ Experimental web app to preview and edit Geometry Stash slide files.
 
 Usage
 ------
+
+![Sample File loaded]({{ site.baseurl }}/screenshots/sample-file.png)
+
 The interface has three panes
   * Tree structure view on the left 
   * Canvas preview in the upper right
