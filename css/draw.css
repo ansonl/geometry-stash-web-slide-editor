@@ -1,0 +1,157 @@
+body {
+	background-color: #1D1F20;
+}
+
+#leftScreen {
+	padding: 0;
+}
+
+#rightScreen {
+	padding: 0;
+	display: flex;
+  flex-direction: column; 
+}
+
+#inputTextArea {
+	width: 100%;
+	height: auto;
+	overflow-y: scroll;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+
+#outputTextArea {
+	width: 35%;
+	height: 90%;
+	overflow-y: scroll;
+	padding: 0;
+}
+
+#elementHolder {
+	height: auto;
+	background-color: #FF0000;
+}
+
+#previewCanvas {
+	width: 100%;
+	border-style: solid;
+  border-width: 0;
+  display: block;
+}
+
+#elementListArea {
+ padding: 0;
+}
+
+#canvasArea {
+	padding: 0;
+}
+
+#textInputArea {
+	padding: 0;
+}
+
+#controlButtonArea {
+	height: 35px;
+	background-color: #EEEEEE;
+}
+
+#controlButtonArea > button {
+	margin: 5px;
+}
+
+#newElementArea {
+	height: 100%;
+	padding: 8px 10px;
+	display: inline-block;
+	background-color: #DDDDDD;
+}
+
+#moveElementInputArea {
+	height: 100%;
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #DDDDDD;
+}
+
+.moveElementButtonArea {
+	height: 30px;
+	padding: 5px;
+	font-size: x-small;
+	text-transform: uppercase;
+	margin-right: 30px;
+	background-color: #314696;
+	display: inline-block;
+}
+
+.moveElementButton {
+	padding: 0px 3px;
+	margin: 0px 5px;
+	color: black;
+}
+
+.singleElement {
+	width: 100%;
+	background-color: #3d62b6;
+	padding: 5px;
+	color: #FFFFFF;
+}
+
+.propertyFields {
+	background-color: #436cc1;
+	padding: 10px;
+
+	/* http://jsfiddle.net/3fTyt/1120/ */
+	-webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+
+.keyValuePropertyRow {
+	padding: 5px;
+}
+
+.propertyTitle {
+	padding: 10px;
+	font-weight: bold;
+}
+
+.keyLabel {
+	margin: 0px 5px;
+}
+
+.commentSpan {
+	width: 10px;
+	font-size: x-small;
+	overflow: scroll;
+}
+
+.floatRightDivElement {
+	float:right;
+}
+
+.elementHandle {
+	padding: 10px;
+}
+
+.floatRightDivProperty {
+	float:right;
+}
+
+.valueTextInput {
+	margin: 0px 5px;
+	color: black;
+}
+
+.keyDelete {
+	padding: 2px;
+	margin: 2px 5px;
+	color: white;
+}
+
+.collapseButton {
+	width: 30px;
+	height: 30px;
+	padding: 5px 5px 5px 5px;
+}
