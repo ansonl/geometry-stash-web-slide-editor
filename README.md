@@ -1,12 +1,14 @@
 SLIDE editor webapp
 ======
 
-Experimental web app to preview and edit Geometry Stash slide files. 
+Experimental web app to preview and edit Geometry Stash slide files. Most of the custom JS I wrote is in *draw.js*. You are free the download the source and do whatever you like with it. Pull requests will be accepted. There is no support provided for this web app. 
 
 Usage
 ------
 
-![Sample File loaded]({{ site.baseurl }}/screenshots/sample-file.png)
+[Use it HERE](http://ansonl.github.io/geometry-stash-web-slide-editor)
+
+![Sample File loaded](https://raw.githubusercontent.com/ansonl/geometry-stash-web-slide-editor/gh-pages/screenshots/sample-file.png)
 
 The interface has three panes
   * Tree structure view on the left 
